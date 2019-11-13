@@ -18,7 +18,7 @@ ACPYPE docker and singularity containers used for [biobb_chemistry](https://gith
 * Usage:
 
 
-        docker run mmbirb/acpype:latest:latest <command>
+        docker run mmbirb/acpype:latest <command>
 
 ### Singularity Use
 
@@ -44,6 +44,6 @@ Licensed under the
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file LICENSE for details.
 
 ### Acknolegements
-The singularity container through [singularity hub](https://singularity-hub.org/).
+The singularity container has been built through [singularity hub](https://singularity-hub.org/).
 
 ![](https://bioexcel.eu/wp-content/uploads/2019/04/Bioexcell_logo_1080px_transp.png "Bioexcel")
