@@ -1,4 +1,4 @@
-# new version alpine-conda
+# new version alpine-conda v2.1
 Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
