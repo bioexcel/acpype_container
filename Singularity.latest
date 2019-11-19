@@ -3,6 +3,6 @@ Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
 
-%post
+%runscript
 	source /opt/conda/etc/profile.d/conda.sh
 	conda activate base 
