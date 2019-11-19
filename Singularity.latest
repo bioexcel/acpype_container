@@ -4,4 +4,5 @@ From: acpype:latest
 Namespace: mmbirb
 
 %post
+	source /opt/conda/etc/profile.d/conda.sh
 	conda activate base 
