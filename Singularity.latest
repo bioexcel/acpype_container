@@ -1,9 +1,9 @@
-# new version alpine-conda v2.3
+# new version alpine-conda v2.4
 Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
 
 %runscript
 	echo "Executing: $*"
-	conda activate base
+	exec conda activate base
 	exec "$@"
