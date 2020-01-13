@@ -11,4 +11,4 @@ RUN /opt/conda/bin/conda install --yes --freeze-installed \
     && find /opt/conda/ -follow -type f -name '*.js.map' -delete \
     && find /opt/conda/lib/python*/site-packages/bokeh/server/static -follow -type f -name '*.js' ! -name '*.min.js' -delete
 
-RUN /opt/conda/bin/conda install -y -c acpype acpype==2018.4.24.22.34.57
+RUN /opt/conda/bin/conda install -y -c conda-forge acpype
