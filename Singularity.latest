@@ -3,6 +3,6 @@ Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
 
-%runscript
+%startscript
 	bash
 	conda activate
