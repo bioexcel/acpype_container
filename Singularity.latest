@@ -1,9 +1,4 @@
-# new version alpine-conda v2.6
+# new version conda-forge acpype
 Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
-
-%post
-	exec apk update
-	exec apk upgrade
-	exec apk add bash
