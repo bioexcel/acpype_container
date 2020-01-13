@@ -1,4 +1,4 @@
-# new version conda-forge acpype
+# new version alpine-conda + conda-forge acpype
 Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
