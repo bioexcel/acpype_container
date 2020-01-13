@@ -2,3 +2,6 @@
 Bootstrap: docker
 From: acpype:latest
 Namespace: mmbirb
+
+%runscript
+	bash
