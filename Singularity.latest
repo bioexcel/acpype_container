@@ -5,3 +5,4 @@ Namespace: mmbirb
 
 %runscript
 	bash
+	conda activate
