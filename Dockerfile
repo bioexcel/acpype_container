@@ -1,4 +1,16 @@
-FROM jcrist/alpine-conda:4.6.8
+FROM jcrist/alpine-conda
+
+USER root
+
+RUN echo '\
+        . /etc/profile ; \
+    ' >> /root/.profile
+
+RUN apk update
+RUN apk upgrade
+RUN apk add bash
+
+USER anaconda
 
 RUN /opt/conda/bin/conda install --yes --freeze-installed \
         dask==1.2.2 \
