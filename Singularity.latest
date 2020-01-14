@@ -1,8 +1,4 @@
-# new version alpine-conda + conda-forge acpype
+# new version with linux for singularity
 Bootstrap: docker
-From: acpype:latest
+From: acpype:singularity
 Namespace: mmbirb
-
-%startscript
-	bash
-	conda activate
