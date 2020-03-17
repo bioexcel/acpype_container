@@ -25,20 +25,20 @@ ACPYPE docker and singularity containers used for [biobb_chemistry](https://gith
 * Installation:
 
 
-        singularity pull shub://bioexcel/acpype_container
+        singularity pull --name acpype.sif shub://bioexcel/acpype_container
 
 
 * Usage:
 
 
-        singularity exec bioexcel-acpype_container-master-latest.simg <command>
+        singularity exec acpype.sif <command>
 
 
 ### Copyright & Licensing
 This software has been developed in the [MMB group](http://mmb.irbbarcelona.org) at the [BSC](http://www.bsc.es/) & [IRB](https://www.irbbarcelona.org/) for the [European BioExcel](http://bioexcel.eu/), funded by the European Commission (EU H2020 [823830](http://cordis.europa.eu/projects/823830), EU H2020 [675728](http://cordis.europa.eu/projects/675728)).
 
-* (c) 2015-2019 [Barcelona Supercomputing Center](https://www.bsc.es/)
-* (c) 2015-2019 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)
+* (c) 2015-2020 [Barcelona Supercomputing Center](https://www.bsc.es/)
+* (c) 2015-2020 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)
 
 Licensed under the
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file LICENSE for details.
